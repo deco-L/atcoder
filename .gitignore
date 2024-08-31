@@ -1,0 +1,16 @@
+# Ignore all files
+*
+
+# Exclude specific directories
+!/
+!/abc
+!/abc/**/
+
+# Exclude specific files
+!/README.md
+!/.gitignore
+!**/*.cpp
+!**/contest.acc.json
+
+# Ignore specific directories
+**/.vscode/
