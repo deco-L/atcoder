@@ -5,6 +5,8 @@
 !/
 !/abc
 !/abc/**/
+!/tessoku-book/
+!/tessoku-book/**
 
 # Exclude specific files
 !/README.md
