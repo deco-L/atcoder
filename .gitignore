@@ -6,13 +6,18 @@
 !/abc
 !/abc/**/
 !/tessoku-book/
-!/tessoku-book/**
+!/tessoku-book/**/
 
 # Exclude specific files
 !/README.md
 !/.gitignore
 !**/*.cpp
 !**/contest.acc.json
+!**/**.in
+!**/**.out
 
 # Ignore specific directories
 **/.vscode/
+
+# Ignore specific fiiles
+**/a.out
