@@ -9,25 +9,44 @@
       "id": "tessoku_book_a",
       "label": "A01",
       "title": "The First Problem",
-      "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_a"
+      "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_a",
+      "directory": {
+        "path": "a01",
+        "submit": "main.cpp"
+      }
     },
     {
       "id": "tessoku_book_b",
       "label": "A02",
       "title": "Linear Search",
-      "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_b"
+      "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_b",
+      "directory": {
+        "path": "a02",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
     },
     {
       "id": "tessoku_book_c",
       "label": "A03",
       "title": "Two Cards",
-      "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_c"
+      "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_c",
+      "directory": {
+        "path": "a03",
+        "testdir": "test",
+        "submit": "main.cpp"
+      }
     },
     {
       "id": "tessoku_book_d",
       "label": "A04",
       "title": "Binary Representation 1",
-      "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_d"
+      "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_d",
+      "directory": {
+        "path": "a04",
+        "testdir": "test",
+        "submit": "main.cpp"
+      }
     },
     {
       "id": "tessoku_book_e",
