@@ -9,9 +9,12 @@
 ### [Explanation](https://github.com/E869120/kyopro-tessoku)
 
 ### progress
-|problem|pass/fail|
-|:------|:-------:|
-|A01|⭕|
-|A02|⭕|
-|A03|⭕|
-|A04|⭕|
+|problem|pass/fail|day|theme|
+|:------|:-------:|:-:|:----:|
+|A01|⭕|2024-09-05|none|
+|A02|⭕|2024-09-08|global search|
+|A03|⭕|2024-09-08|global search|
+|A04|⭕|2024-09-08|none|
+|A05|⭕|2024-09-10|global search|
+|A06|⭕|2024-09-08|cumulative sum|
+|A07|⭕|2024-09-08|cumulative sum|

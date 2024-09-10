@@ -52,19 +52,34 @@
       "id": "tessoku_book_e",
       "label": "A05",
       "title": "Three Cards",
-      "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_e"
+      "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_e",
+      "directory": {
+        "path": "a05",
+        "testdir": "test",
+        "submit": "main.cpp"
+      }
     },
     {
       "id": "math_and_algorithm_ai",
       "label": "A06",
       "title": "How Many Guests?",
-      "url": "https://atcoder.jp/contests/tessoku-book/tasks/math_and_algorithm_ai"
+      "url": "https://atcoder.jp/contests/tessoku-book/tasks/math_and_algorithm_ai",
+      "directory": {
+        "path": "a06",
+        "testdir": "test",
+        "submit": "main.cpp"
+      }
     },
     {
       "id": "tessoku_book_g",
       "label": "A07",
       "title": "Event Attendance",
-      "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_g"
+      "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_g",
+      "directory": {
+        "path": "a07",
+        "testdir": "test",
+        "submit": "main.cpp"
+      }
     },
     {
       "id": "tessoku_book_h",
