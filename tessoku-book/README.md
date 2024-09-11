@@ -16,5 +16,6 @@
 |A03|⭕|2024-09-08|global search|
 |A04|⭕|2024-09-08|none|
 |A05|⭕|2024-09-10|global search|
-|A06|⭕|2024-09-08|cumulative sum|
-|A07|⭕|2024-09-08|cumulative sum|
+|A06|⭕|2024-09-10|cumulative sum|
+|A07|⭕|2024-09-10|cumulative sum|
+|A08|⭕|2024-09-11|cumulative sum|

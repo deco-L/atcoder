@@ -85,7 +85,12 @@
       "id": "tessoku_book_h",
       "label": "A08",
       "title": "Two Dimensional Sum",
-      "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_h"
+      "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_h",
+      "directory": {
+        "path": "a08",
+        "testdir": "test",
+        "submit": "main.cpp"
+      }
     },
     {
       "id": "tessoku_book_i",
