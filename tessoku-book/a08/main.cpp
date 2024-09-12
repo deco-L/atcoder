@@ -19,7 +19,6 @@ int32_t main(void) {
   for (ll i = 0; i < H; i++)
     for (ll j = 0; j < W; j++) cin >> X[i][j];
 
-
   for (ll i = 1; i <= H; i++) {
     for (ll j = 1; j <= W; j++) {
       sum[i][j] = sum[i][j - 1] + X[i - 1][j - 1];
@@ -27,12 +26,6 @@ int32_t main(void) {
       if (i > 1 && j > 1) sum[i][j] -= sum[i - 1][j - 1];
     }
   }
-
-  // for (ll i = 1; i <= H; i++)
-  //   for (ll j = 1; j <= W; j++) sum[i][j] = sum[i][j - 1] + X[i - 1][j - 1];
-
-  // for (ll j = 1; j <= W; j++)
-  //   for (ll i = 1; i <= H; i++) sum[i][j] = sum[i - 1][j] + sum[i][j];
 
   ll Q, A, B, C, D;
 
@@ -43,6 +36,33 @@ int32_t main(void) {
   }
   return (EXIT_SUCCESS);
 }
+
+// int32_t main(void) {
+//   ll H, W;
+
+//   cin >> H >> W;
+
+//   vector<vector<ll>> X(H, vector<ll>(W, 0));
+//   vector<vector<ll>> sum(H + 1, vector<ll>(W + 1, 0));
+
+//   for (ll i = 0; i < H; i++)
+//     for (ll j = 0; j < W; j++) cin >> X[i][j];
+
+//   for (ll i = 1; i <= H; i++)
+//     for (ll j = 1; j <= W; j++) sum[i][j] = sum[i][j - 1] + X[i - 1][j - 1];
+
+//   for (ll j = 1; j <= W; j++)
+//     for (ll i = 1; i <= H; i++) sum[i][j] = sum[i - 1][j] + sum[i][j];
+
+//   ll Q, A, B, C, D;
+
+//   cin >> Q;
+//   for (ll i = 0; i < Q; i++) {
+//     cin >> A >> B >> C >> D;
+//     cout << sum[C][D] + sum[A - 1][B - 1] - sum[A - 1][D] - sum[C][B - 1] << endl;
+//   }
+//   return (EXIT_SUCCESS);
+// }
 
 // int32_t main(void) {
 //   ll H, W;
