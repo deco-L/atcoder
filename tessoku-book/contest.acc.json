@@ -96,7 +96,12 @@
       "id": "tessoku_book_i",
       "label": "A09",
       "title": "Winter in ALGO Kingdom",
-      "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_i"
+      "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_i",
+      "directory": {
+        "path": "a09",
+        "testdir": "test",
+        "submit": "main.cpp"
+      }
     },
     {
       "id": "tessoku_book_j",
