@@ -19,4 +19,4 @@
 |A06|⭕|2024-09-10|cumulative sum|
 |A07|⭕|2024-09-10|cumulative sum|
 |A08|⭕|2024-09-11|cumulative sum|
-|A09|
+|A09|⭕|2024^09-12|cumulative sum|
