@@ -23,3 +23,4 @@
 |A10|⭕|2024-09-18|Range Maximum Query, RMQ|
 |A11|⭕|2024-09-18|dichotomous search|
 |A12|⭕|2024-09-18|dichotomous search|
+|A13|⭕|2024-09-20|dichotomous search or Two Pointer Approach|

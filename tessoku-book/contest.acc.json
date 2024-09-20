@@ -140,7 +140,12 @@
       "id": "tessoku_book_m",
       "label": "A13",
       "title": "Close Pairs",
-      "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_m"
+      "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_m",
+      "directory": {
+        "path": "a13",
+        "testdir": "test",
+        "submit": "main.cpp"
+      }
     },
     {
       "id": "tessoku_book_n",
