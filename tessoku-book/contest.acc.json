@@ -151,13 +151,23 @@
       "id": "tessoku_book_n",
       "label": "A14",
       "title": "Four Boxes",
-      "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_n"
+      "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_n",
+      "directory": {
+        "path": "a14",
+        "testdir": "test",
+        "submit": "main.cpp"
+      }
     },
     {
       "id": "tessoku_book_o",
       "label": "A15",
       "title": "Compression",
-      "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_o"
+      "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_o",
+      "directory": {
+        "path": "a15",
+        "testdir": "test",
+        "submit": "main.cpp"
+      }
     },
     {
       "id": "tessoku_book_p",
