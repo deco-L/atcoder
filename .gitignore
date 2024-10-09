@@ -9,7 +9,7 @@
 !/tessoku-book/**/
 
 # Exclude specific files
-!/README.md
+!**/README.md
 !/.gitignore
 !**/*.cpp
 !**/contest.acc.json
