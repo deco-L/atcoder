@@ -49,3 +49,54 @@ int32_t main(void) {
   cout << result << endl;
   return (EXIT_SUCCESS);
 }
+
+
+// #include <iostream>
+// #include <vector>
+// #include <string>
+// using namespace std;
+
+// int main() {
+//     int N, K;
+//     cin >> N >> K;
+//     string S;
+//     cin >> S;
+
+//     // 分割
+//     vector<int> idx = {0};
+//     for (int i = 1; i < N; ++i) {
+//         if (S[i - 1] != S[i]) {
+//             idx.push_back(i);
+//         }
+//     }
+//     idx.push_back(N);
+
+//     vector<string> splited_S;
+//     for (size_t i = 0; i < idx.size() - 1; ++i) {
+//         splited_S.push_back(S.substr(idx[i], idx[i + 1] - idx[i]));
+//     }
+
+//     // スワップ
+//     int kth_1_idx;
+//     if (S[0] == '0') {
+//         kth_1_idx = 2 * K - 1;
+//     } else {
+//         kth_1_idx = 2 * K - 2;
+//     }
+
+//     // スワップが可能かチェック
+//     if (kth_1_idx - 1 < splited_S.size() && kth_1_idx < splited_S.size()) {
+//         swap(splited_S[kth_1_idx - 1], splited_S[kth_1_idx]);
+//     }
+
+//     // 結合
+//     string T;
+//     for (const auto& segment : splited_S) {
+//         T += segment;
+//     }
+
+//     // 出力
+//     cout << T << endl;
+
+//     return 0;
+// }
