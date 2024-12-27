@@ -13,8 +13,8 @@
 |:------|:-:|:--------:|:----:|
 |A01|⭕|2024-09-05 <br> 2024-12-26|none|
 |A02|⭕|2024-09-08 <br> 2024-12-26|global search & pruning|
-|A03|⭕|2024-09-08|global search|
-|A04|⭕|2024-09-08|none|
+|A03|⭕|2024-09-08 <br> 2024-12-26|global search & pruning|
+|A04|⭕|2024-09-08 <br> 2024-12-26|bit operation|
 |A05|⭕|2024-09-10|global search|
 |A06|⭕|2024-09-10|cumulative sum|
 |A07|⭕|2024-09-10|cumulative sum|
@@ -27,3 +27,5 @@
 |A14|⭕|2024-09-24|dichotomous search|
 |B01|⭕|2024-12-26|none|
 |B02|⭕|2024-12-26|global serch & pruning|
+|B03|⭕|2024-12-26|global serch & pruning|
+|B04|⭕|2024-12-26|
