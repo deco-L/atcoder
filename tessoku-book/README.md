@@ -28,4 +28,4 @@
 |B01|⭕|2024-12-26|none|
 |B02|⭕|2024-12-26|global serch & pruning|
 |B03|⭕|2024-12-26|global serch & pruning|
-|B04|⭕|2024-12-26|
+|B04|⭕|2024-12-26|none|
