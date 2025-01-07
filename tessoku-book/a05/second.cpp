@@ -12,18 +12,16 @@ int32_t main(void) {
   ios::sync_with_stdio(false);
   cin.tie(nullptr);
 
-  int_fast16_t N;
+  int N = 0, K = 0;
+  cin >> N >> K;
 
-  cin >> N;
-
-  int_fast32_t bit = 1 << 9;
-  while (bit > 0) {
-    if (bit & N)
-      cout << 1;
-    else
-      cout << 0;
-    bit >>= 1;
+  int count = 0;
+  for (int i = 1; i <= N; i++) {
+    for (int j = 1; j <= N; j++) {
+      if (0 < K - (i + j) && K - (i + j) <= N)
+        count++;
+    }
   }
-  cout << endl;
+  cout << count << endl;
   return (EXIT_SUCCESS);
 }

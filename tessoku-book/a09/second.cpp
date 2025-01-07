@@ -1,5 +1,5 @@
-#include <stdint.h>
 #include <cstdlib>
+#include <cstdint>
 #include <iostream>
 #include <vector>
 #include <map>
@@ -13,30 +13,35 @@ int32_t main(void) {
   ios::sync_with_stdio(false);
   cin.tie(nullptr);
 
-  fint N = 0, result = 0;
-  vector<vector<fint>> cCrood(1501 + 2, vector<fint>(1501 + 2, 0));
+  fint H = 0, W = 0, N = 0;
 
-  cin >> N;
+  cin >> H >> W >> N;
+
+  vector<vector<fint>> cCrood(H + 2, vector<fint>(W + 2, 0));
+
   for (fint i = 0; i < N; i++) {
     fint A = 0, B = 0, C = 0, D = 0;
 
     cin >> A >> B >> C >> D;
-    cCrood[A + 1][B + 1]++;
-    cCrood[A + 1][D + 1]--;
-    cCrood[C + 1][B + 1]--;
+    cCrood[A][B]++;
     cCrood[C + 1][D + 1]++;
+    cCrood[A][D + 1]--;
+    cCrood[C + 1][B]--;
   }
-  for (fint i = 0; i <= 1500; i++) {
-    for (fint j = 0; j <= 1500; j++) {
+  for (fint i = 0; i <= H; i++) {
+    for (fint j = 0; j <= W; j++) {
       cCrood[i + 1][j + 1] += cCrood[i + 1][j];
       if (i > 0) cCrood[i + 1][j + 1] += cCrood[i][j + 1];
       if (i > 0 && j > 0) cCrood[i + 1][j + 1] -= cCrood[i][j];
     }
   }
-  for (fint i = 1; i <= 1501; i++)
-    for (fint j = 1; j <= 1501; j++)
-      if (cCrood[i][j] > 0)
-        result++;
-  cout << result << endl;
+  for (fint i = 0; i < H; i++) {
+    for (fint j = 0; j < W; j++) {
+      if (j != 0)
+        cout << ' ';
+      cout << cCrood[i + 1][j + 1];
+    }
+    cout << endl;
+  }
   return (EXIT_SUCCESS);
 }
