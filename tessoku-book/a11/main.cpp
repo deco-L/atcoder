@@ -10,7 +10,7 @@ typedef int_fast64_t ll;
 
 ll search(ll N, ll X, vector<ll> A) {
   ll index = 0, L = 0, R = N - 1;
-  while (L <= N) {
+  while (L <= R) {
     ll M = (L + R) / 2;
     if (A[M] < X) L = M + 1;
     if (A[M] > X) R = M - 1;
