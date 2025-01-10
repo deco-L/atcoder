@@ -26,8 +26,8 @@
 |A13|⭕|2024-09-20 <br> 2025-01-10|binary search or Two Pointer Approach|
 |A14|⭕|2024-09-24 <br> 2025-01-10|binary search|
 |A15|⭕|2025-01-10|compress or binary search|
-|A16||||
-|A17||||
+|A16|⭕|2025-01-10|dynamic programming|
+|A17|⭕|2025-01-10|dynamic programming|
 |A18||||
 |A19||||
 |A20||||
@@ -58,8 +58,8 @@
 |B12|⭕|2025-01-09|binary search|
 |B13|⭕|2025-01-10|binary search or Two Pointer Approach|
 |B14|⭕|2025-01-10|binary search|
-|B16||||
-|B17||||
+|B16|⭕|2025-01-10|dynamic programming|
+|B17|⭕|2025-01-10|dynamic programming|
 |B18||||
 |B19||||
 |B21||||
