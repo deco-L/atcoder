@@ -23,9 +23,9 @@
 |A10|⭕|2024-09-18 <br> 2025-01-07|Range Maximum Query, RMQ|
 |A11|⭕|2024-09-18 <br> 2025-01-07|binary search|
 |A12|⭕|2024-09-18 <br> 2025-01-09|binary search|
-|A13|⭕|2024-09-20|binary search or Two Pointer Approach|
-|A14|⭕|2024-09-24|binary search|
-|A15||||
+|A13|⭕|2024-09-20 <br> 2025-01-10|binary search or Two Pointer Approach|
+|A14|⭕|2024-09-24 <br> 2025-01-10|binary search|
+|A15|⭕|2025-01-10|compress or binary search|
 |A16||||
 |A17||||
 |A18||||
@@ -56,8 +56,8 @@
 |B09|⭕|2025-01-07|cumulative sum|
 |B11|⭕|2025-01-09|binary search using lower bound|
 |B12|⭕|2025-01-09|binary search|
-|B13||||
-|B14||||
+|B13|⭕|2025-01-10|binary search or Two Pointer Approach|
+|B14|⭕|2025-01-10|binary search|
 |B16||||
 |B17||||
 |B18||||
