@@ -11,6 +11,9 @@
 # Exclude specific files
 !**/README.md
 !/.gitignore
+!/flake.nix
+!/flake.lock
+!/.envrc
 !**/*.cpp
 !**/contest.acc.json
 !**/**.in
